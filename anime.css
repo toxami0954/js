@@ -1,0 +1,73 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.title h1{
+    font-family: "Arial,Helvetica Neue","Helvetica",sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+
+.list_menu a{
+    font-family: "Arial,Helvetica Neue","Helvetica",sans-serif;
+    font-size: 25px;
+    color: #fcfffc;
+    border-left: 15px solid #F5B7C7;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.list_menu{
+    margin-bottom: 50px;
+}
+
+.list_menu a:hover{
+    transition: all 0.2s ease;
+    padding-left: 10px;
+    border-left: 2px solid #f51d56;
+    color: darkred;
+}
+
+
+.title span {
+    color: firebrick;
+}
+
+.list_menu li{
+    margin: 25px 0;
+}
+
+.menu {
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(255, 0, 204, 0.1);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 0.5pc  solid rgba(185, 77, 110, 0.8);
+    border-top: 0.5pc solid rgba(185, 77, 110, 0.8);
+    bottom: -98vh;
+    transition:all 1.3333s ease;
+    left:-18px;
+    border-left:0.5pc solid rgba(185, 77, 110, 0.8);
+    border-radius: 0 50px 0 5px;
+
+}
+
+.menu:hover{
+    bottom: 0;
+    transition:all  2.208s ease;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn{
+    width: 100vw;
+}
